@@ -82,7 +82,7 @@ namespace move_picture
             for (int i = 0; i < 100; i++)
             {
                 pictureBox1.Location = new Point(pictureBox1.Location.X - 2, pictureBox1.Location.Y);
-                await Task.Delay(5);
+                await Task.Delay(5); 
 
             }
         }
